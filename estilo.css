@@ -1,12 +1,105 @@
+@font-face {
+  font-family: 'fuente1';
+  src: url('./font/fuente1.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#videoFondo {
+    position: fixed;
+    top: 0;
+    left: 50;
+    width: 40%;
+    height: 100%;
+    z-index: -1;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+
+    .texto {
+     position: fixed;
+    right: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 38px;
+    color: white;
+    text-align: right;
+    width: 280px;
+
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'fuente1', sans-serif;
+  background-color: rgb(2, 2, 2);
+
+ }
+
+  .titulo {
+  font-size: 45px;
+  -webkit-text-stroke: 0.2px rgb(249, 254, 249);
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  animation: titilar 1.5s infinite;
+}
 
 
 
+@keyframes titilar {
+    0%, 100% {
+    color: #000000;  
+    }
+
+    50% {
+    color: rgb(14, 252, 10);   
+    }
+}
+
+.ipod {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    z-index: 10;
+    pointer-events: none;
+}
 
 
+#contenedorPersonaje {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+.imagen {
+  height: 80px;
+  width: 60px;
+  margin: 0em auto;
+}
 
 #boton {
   font-size: 0.9em;
-  background-color:  rgb(193, 120, 199);
+  background-color:  rgb(34, 224, 1);
   color: white;
   cursor: pointer;
+  text-align: center;
+   margin-top: 20px;
 }
+

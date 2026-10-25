@@ -1,7 +1,4 @@
-# Ruleta
+# Bestiaro con tématica FEP
 ## idea
 
-
-imgen superpuesta artista sbre figura comic
-
-lineup fep segùn lo que lleves 
+- Tres artistas del FEP que me gustan, en una combinacion aleatoria de imagenes que, cuando coinciden, reproduce una de sus canciones
