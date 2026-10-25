@@ -1,18 +1,18 @@
 // Listas de imágenes
 const listaA = [
-  "../assets/A1.jpg",
-  "../assets/A2.jpg",
-  "../assets/A3.jpg",
+  "./assets/A1.jpg",
+  "./assets/A2.jpg",
+  "./assets/A3.jpg",
 ];
 const listaS = [
- "../assets/S1.jpg",
-  "../assets/S2.jpg",
-  "../assets/S3.jpg",
+ "./assets/S1.jpg",
+  "./assets/S2.jpg",
+  "./assets/S3.jpg",
 ];
 const listaC = [
-  "../assets/C1.jpg",
-  "../assets/C2.jpg",
-  "../assets/C3.jpg",
+  "./assets/C1.jpg",
+  "./assets/C2.jpg",
+  "./assets/C3.jpg",
 ];
 
 // Contenedores de las imágenes del HTML usando los Ids
